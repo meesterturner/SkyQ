@@ -47,11 +47,13 @@ namespace SkyQTestFrontend
 
         private void lstPvr_SelectedIndexChanged(object sender, EventArgs e)
         {
+            Utils u = new Utils();
             PvrItem i;
 
             i = (PvrItem)lstPvr.SelectedItem;
 
             lblTitle.Text = i.t;
+            txtDate.Text = u.FromEpoch(i.ast).ToString("dd/MM/yyyy hh:mm");
             txtSynopsis.Text = i.sy;
             txtChan.Text = i.cn;
             txtRat.Text = i.carating;

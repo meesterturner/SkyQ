@@ -39,6 +39,8 @@
             this.txtRat = new System.Windows.Forms.TextBox();
             this.cboFilter = new System.Windows.Forms.ComboBox();
             this.lblTitle = new System.Windows.Forms.Label();
+            this.txtDate = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // cmdGetPvrList
@@ -70,7 +72,7 @@
             // 
             // txtSynopsis
             // 
-            this.txtSynopsis.Location = new System.Drawing.Point(360, 214);
+            this.txtSynopsis.Location = new System.Drawing.Point(359, 272);
             this.txtSynopsis.Multiline = true;
             this.txtSynopsis.Name = "txtSynopsis";
             this.txtSynopsis.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
@@ -89,7 +91,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(356, 158);
+            this.label2.Location = new System.Drawing.Point(355, 214);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(49, 13);
             this.label2.TabIndex = 5;
@@ -97,7 +99,7 @@
             // 
             // txtChan
             // 
-            this.txtChan.Location = new System.Drawing.Point(414, 159);
+            this.txtChan.Location = new System.Drawing.Point(414, 214);
             this.txtChan.Name = "txtChan";
             this.txtChan.Size = new System.Drawing.Size(346, 20);
             this.txtChan.TabIndex = 6;
@@ -105,7 +107,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(356, 188);
+            this.label3.Location = new System.Drawing.Point(356, 246);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(41, 13);
             this.label3.TabIndex = 7;
@@ -113,7 +115,7 @@
             // 
             // txtRat
             // 
-            this.txtRat.Location = new System.Drawing.Point(414, 188);
+            this.txtRat.Location = new System.Drawing.Point(414, 246);
             this.txtRat.Name = "txtRat";
             this.txtRat.Size = new System.Drawing.Size(86, 20);
             this.txtRat.TabIndex = 8;
@@ -137,11 +139,29 @@
             this.lblTitle.TabIndex = 10;
             this.lblTitle.Text = "label4";
             // 
+            // txtDate
+            // 
+            this.txtDate.Location = new System.Drawing.Point(414, 185);
+            this.txtDate.Name = "txtDate";
+            this.txtDate.Size = new System.Drawing.Size(193, 20);
+            this.txtDate.TabIndex = 12;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(354, 188);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(33, 13);
+            this.label4.TabIndex = 11;
+            this.label4.Text = "Date:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 498);
+            this.Controls.Add(this.txtDate);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.cboFilter);
             this.Controls.Add(this.txtRat);
@@ -174,6 +194,8 @@
         private System.Windows.Forms.TextBox txtRat;
         private System.Windows.Forms.ComboBox cboFilter;
         private System.Windows.Forms.Label lblTitle;
+        private System.Windows.Forms.TextBox txtDate;
+        private System.Windows.Forms.Label label4;
     }
 }
 
