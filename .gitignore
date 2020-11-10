@@ -1,0 +1,6 @@
+/packages
+/.vs
+/SkyQTestFrontend/obj
+/SkyQTestFrontend/bin
+/SkyQLib/obj
+/SkyQLib/bin
