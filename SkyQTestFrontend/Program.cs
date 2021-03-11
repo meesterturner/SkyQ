@@ -9,7 +9,7 @@ namespace SkyQTestFrontend
     static class Program
     {
         /// <summary>
-        /// The main entry point for the application. Test branch
+        /// The main entry point for the application. Test branch. Test VS commit
         /// </summary>
         [STAThread]
         static void Main()
